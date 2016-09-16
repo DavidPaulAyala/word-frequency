@@ -11,8 +11,8 @@ _This program will show how frequently a word appears in a sentence._
 
 |Behavior|Input|Output|
 |--------|:---:|-----:|
-|The program will identify text entered as text.|"clown"|(text)|
-|The program will count how many times a word appears in an sentence.|word:"clown", sentence:"Only one clown emerged from the clown car"|2|
+|The program will count how many times a word appears in an sentence.|word = "red", sentence = "Fred wore red shoes and a red hat."|2|
+|The program will count capitalized words as well as lowercase words.|word = brown sentence = Dr. Brown owns a brown satchel and lives in Brownsville, MD.|2|
 ## Setup Instructions
 
 * _Clone the program from its github repository_

@@ -1,9 +1,17 @@
 <?php
 class RepeatCounter
 {
-    function countRepeats($first_input)
+    function countRepeats($word_input, $sentence_input)
     {
-        $verify_string = is_string($first_input);
-        return $verify_string;
+        $count = 0;
+        $sentenceArray = explode(" ", $sentence_input);
+        foreach ($sentenceArray as $word) {
+          if ($word_input == $word) {
+            $count++;
+          }
+        }
+        return $count;
+
     }
-} ?>
+}
+?>
