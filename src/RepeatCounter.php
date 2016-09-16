@@ -6,12 +6,11 @@ class RepeatCounter
         $count = 0;
         $sentenceArray = explode(" ", $sentence_input);
         foreach ($sentenceArray as $word) {
-          if ($word_input == $word) {
-            $count++;
-          }
+            if (strtolower($word_input) == strtolower($word)) {
+              $count++;
+            }
         }
         return $count;
-
     }
 }
 ?>
