@@ -3,6 +3,19 @@
     class RepeatCounterTest extends PHPUnit_Framework_TestCase
     {
 
+        function test_wordsDoNotMatch()
+        {
+            //Arrange
+            $test_RepeatCounter = new RepeatCounter;
+            $word_input = "clown";
+            $test_input = "store";
+
+            //Act
+            $result = $test_RepeatCounter->countRepeats($word_input, $test_input);
+
+            //Assert
+            $this->assertEquals(0, $result);
+        }
         function test_countRepeatWords()
         {
             //Arrange

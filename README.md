@@ -11,6 +11,8 @@ _This program will show how frequently a word appears in a sentence._
 
 |Behavior|Input|Output|
 |--------|:---:|-----:|
+|The program will not count words that don't match|word1 = "clown", word2 = "store"|0|
+||||
 |The program will count how many times a word appears in an sentence.|word = "red", sentence = "Fred wore red shoes and a red hat."|2|
 |The program will count capitalized words as well as lowercase words.|word = brown sentence = Dr. Brown owns a brown satchel and lives in Brownsville, MD.|2|
 ## Setup Instructions
